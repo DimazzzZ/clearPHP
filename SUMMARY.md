@@ -1,14 +1,12 @@
-# Summary
+# Оглавление
 
-This is the summary of my book.
-
-* [Introduction](README.md)
-* [List of Rules](rules/README.md)
+* [Вступление](README.md)
+* [Список правил](rules/README.md)
 <!-- rules -->
-  * Potential Errors
-   * [No Dangling References](rules/no-dangling-reference.md)
- * Good Practices
-   * [Always Has Visibility](rules/always-have-visibility.md)
+  * Потенциальные ошибки
+   * [Висячие ссылки](rules/no-dangling-reference.md)
+ * Хорошая практика
+   * [Всегда указывайте видимость](rules/always-have-visibility.md)
    * [Always Typehint](rules/always-typehint.md)
    * [Avoid Redefining Properties](rules/avoid-redefining-properties.md)
    * [Avoid Those Functions](rules/avoid-those-functions.md)
@@ -106,7 +104,7 @@ This is the summary of my book.
    * [No Uninitialized Variables](rules/no-uninitialized-variable.md)
    * [No Unnecessary Conversion](rules/no-unnecessary-conversion.md)
 <!-- rules -->
-* [Annexes](ANNEXES.md)
-    * [Glossary](GLOSSARY.md)
-    * [License](LICENSE.md)
-    * [Authors](AUTHORS.md)
+* [Приложения](ANNEXES.md)
+    * [Глоссарий](GLOSSARY.md)
+    * [Лицензия](LICENSE.md)
+    * [Авторы](AUTHORS.md)

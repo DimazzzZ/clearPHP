@@ -1,15 +1,20 @@
-<!-- Good Practices -->
-# Always Has Visibility
+<!-- Хорошая практика -->
+# Всегда указывайте видимость
 
-For compatibility reasons, PHP allows methods and properties to be defined without visibility : `public`, `protected` or `private`. By default, methods and properties are defined as `public`, making them available to all other objects without restriction.
+Из соображений совместимости PHP позволяет определять методы и свойства без указаниях их видимости: `public`, 
+`protected`, `private`. По умолчанию методы и свойства определены как публичные (`public`), что позволяет обращаться к 
+ним без каких либо ограничений.
 
-One development approach is to set visibility by default to `private`, and then, lift the constraint as it is apparent that the resource has to be reached from parents or from outside objects. 
+Один из подходов программирования - всегда ставить видимость `private`, после чего уже можно ослаблять ограничение, 
+если данный ресурс требуется в дочернем классе или за его пределеами.
 
-This is one core principle of Object Oriented Programming : encapsulation. It must be used to separate as much as possible the internals of the object from the outside, limiting its impact to a few and selected methods or properties. 
+Это один из основных принципов объектно-ориентированного программирования: инкапсуляция. Он должен быть использован для 
+разделения как можно большего количества "внутренностей" объекта извне, ограничивая их влияние до выбранных методов или 
+свойств.
 
-It is recommended to always set the visibility, as restrictive as possible.
+Рекомендуется всегда устанавливать ограниченную видимость насколько это возможно.
 
-## Rule Details
+## Подробнее о правиле
 
 This rule is aimed at avoiding omitting visibility for properties and methods.
 
