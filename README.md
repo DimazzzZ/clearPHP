@@ -1,35 +1,38 @@
-clearPHP
-========
+# clearPHP
 
-Reference for writing clear PHP code 
+Рекомендации по написанию чистого PHP-кода 
 
-It is difficult to know when one's code is well written. There are recommendations for writing PHP code in the manual, from CS theories, peers review, and gut feeling. That makes a lot of rules. 
+Трудно сразу понять, хорошо ли написан код. Поэтому существуют определенные рекомендации по написанию кода: 
+руководство по PHP, теоретическая информатика, рецензии других программистов и шестое чувство. Это порождает много 
+правил.
 
-The main goal of this document is to collect such rules, so as to have them all easy to read and select them for reviewing one's code. This is a reference document, in which anyone may look for ways to improve their code. 
+Основная цель этого документа состоит в том, чтобы собрать все эти правила и рекомендации в одном месте, чтобы их было 
+легко читать, понимать и применять на практике в своем коде. Это документ-ссылка, в котором любой найдет способ 
+улучшить свой код.
 
-<a href="rules/README.md">Read the clearPHP rules</a>.
+<a href="rules/README.md">Правила clearPHP</a>.
 
-So Many Rules
-------------------------------------
-There are obviously a lot of rules. And probably some will be added soon. 
+## Так много правил
+Очевидно, что правил очень много и некоторые ещё только будут добавлены.
 
+* Это не окончательный стандарт написания кода: утверждать, что любой код 100% совместим с данными рекомендациями 
+бессмысленно. Медали за это не дают.
+* Не используйте все правила сразу: будет очень сложно применить их все в одно время и в одном коде. Потому что 
+некоторые правила порождают слишком много наблюдений (попробуйте воспитать кавычки), а некоторые из них могут быть 
+противоречивы. 
+* Совершенно нормально ненавидеть некоторые правила: это лишь рекомендации. Их первостепенная задача - ознакомить вас с 
+правилами, их описанием, сильными и слабыми сторонами. Лишь после этого вы примените некоторые из них, а остальные 
+будете ненавидеть и это нормально. 
 
-* This is no ultimate coding standard : claiming that any code is 100% compatible with the current reference is futile. No medals are eventually distributed. 
-* Don't use them all : it would be difficult to apply them all at the same time in one code. This is because some rules generates too many observations (try to educate quotes), some may be contradictory. 
-* It is fine to hate some rules : this is a reference. Its first goal is to collect their rules, their description, their advantages and drawbacks. After this, you'll be able to adopt some of them. This also means that you will dislike some rules : this is OK. 
+## Лицензия
 
+Если не указано иное, все содержание лицензировано на условиях лицензии Creative Commons Attribution License.
 
-License
-------------------------------------
+Копия лицензии включена в репозитории.
 
-Unless stated otherwise, all content is licensed under the Creative Commons Attribution License.
+## Благодарности
 
-A copy of the license is included in the repository.
-
-Acknowledgements
-------------------------------------
-
-ClearPHP was originally written by Damien Seguy. The following people have contributed to this project:
+ClearPHP был создан Damien Seguy. Следующие люди внесли свой вклад в развитие проекта:
 
 * Derick Rethans (https://github.com/kitsched)
 * fneuneu (https://github.com/Fneufneu)
@@ -40,10 +43,9 @@ ClearPHP was originally written by Damien Seguy. The following people have contr
 * Victor Stanciu (https://github.com/victorstanciu)
 * Juliette Reinders Folmer (https://github.com/jrfnl)
 
-Proposing a New Rule
-------------------------------------
+## Предложение нового правила
 
-To propose a new rule :
+Чтобы предложить новое правило надо:
 
-- fork this repository, create a branch, checkout that branch, add the rule in `proposition` branch, push the branch to Github, and send a pull request
-- Join us on the [mailing-list](https://groups.google.com/forum/#!forum/clearphp)
+- форкнуть этот репозиторий, создать ветку, переключиться на неё, добавить правило в ветку `proposition`, запушить ветку в Github и отправить пул-реквест
+- присоединиться к нам в [почтовой рассылке](https://groups.google.com/forum/#!forum/clearphp)
