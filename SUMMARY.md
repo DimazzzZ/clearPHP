@@ -2,10 +2,9 @@
 
 * [Вступление](README.md)
 * [Список правил](rules/README.md)
-<!-- rules -->
   * Потенциальные ошибки
    * [Висячие ссылки](rules/no-dangling-reference.md)
- * Хорошая практика
+  * Хорошая практика
    * [Всегда указывайте видимость](rules/always-have-visibility.md)
    * [Always Typehint](rules/always-typehint.md)
    * [Avoid Redefining Properties](rules/avoid-redefining-properties.md)
@@ -103,7 +102,6 @@
    * [No Repeated Print](rules/no-repeated-print.md)
    * [No Uninitialized Variables](rules/no-uninitialized-variable.md)
    * [No Unnecessary Conversion](rules/no-unnecessary-conversion.md)
-<!-- rules -->
 * [Приложения](ANNEXES.md)
     * [Глоссарий](GLOSSARY.md)
     * [Лицензия](LICENSE.md)
