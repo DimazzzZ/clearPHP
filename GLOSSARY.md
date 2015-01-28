@@ -1,26 +1,34 @@
 # break
-`break` ends execution of the current for, foreach, while, do-while or switch structure.
+`break` прерывает выполнение циклов for, foreach, while, do-while, а так же оператора switch.
 
 # case
-The `case` statement represents one option in a `switch` instruction.
+Оператор `case` обозначает инструкцию внутри оператора `switch`.
 
 # class
-Basic `class` definitions begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class.
+Каждое определение класса начинается с ключевого слова `class`, затем следует имя класса, и далее пара фигурных скобок, 
+которые заключают в себе определение свойств и методов этого класса.
 
 # constant 
-A `constant` is an identifier (name) for a simple value.
+Константы - это идентификаторы (имена) простых значений.
 
 # continue
-`continue` is used within looping structures to skip the rest of the current loop iteration and continue execution at the condition evaluation and then the beginning of the next iteration.
+`continue` используется внутри циклических структур для пропуска оставшейся части текущей итерации цикла и, при 
+соблюдении условий, начала следующей итерации.
 
 # default
-The `default` statement represents a catch-all `case` in a `switch` instruction.
+Если ни одно значение `case` из набора `switch` не совпало со значением выражения, тогда выполняется блок `default`, 
+если он указан.
 
 # interface
-Object `interface` allow you to create code which specifies which methods a class must implement, without having to define how these methods are handled.
+Интерфейсы объектов позволяют создавать код, который указывает, какие методы и свойства должен включать класс, без 
+необходимости описывания их функционала.
 
 # switch
-The `switch` statement is similar to a series of IF statements on the same expression. In many occasions, you may want to compare the same variable (or expression) with many different values, and execute a different piece of code depending on which value it equals to. This is exactly what the switch statement is for.
+Оператор `switch` подобен серии операторов `if` с одинаковым условием. Во многих случаях вам может понадобиться 
+сравнивать одну и ту же переменную (или выражение) с множеством различных значений, и выполнять различные участки кода 
+в зависимости от того, какое значение принимает эта переменная (или выражение). Это именно тот случай, для которого 
+удобен оператор `switch`.
 
 # trait
-`Traits` are a mechanism for code reuse in single inheritance languages such as PHP.
+Трейты (`Traits`) - это механизм обеспечения повторного использования кода в языках с поддержкой единого наследования, 
+таких как PHP. 
