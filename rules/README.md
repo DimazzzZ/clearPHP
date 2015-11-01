@@ -14,10 +14,10 @@ The following rules signal possible mistakes in the code.
 
 The following rules are common sense practices that help avoid bugs or conflicts.
 
- * [always-have-visibility] (always-have-visibility.md) - 
- * [always-typehint] (always-typehint.md) - 
+ * [Всегда указывайте видимость] (always-have-visibility.md) - 
+ * [Всегда контролируйте тип] (always-typehint.md) - 
  * [Всегда используйте точку с запятой] (always-use-semicolon.md) - 
- * [avoid-magic-number] (avoid-magic-number.md) - 
+ * [Избегайте магических числе] (avoid-magic-number.md) - 
  * [avoid-those-functions] (avoid-those-functions.md) - 
  * [commented-fallthrough] (commented-fallthrough.md) - 
  * [compatible-typehint] (compatible-typehint.md) - 
