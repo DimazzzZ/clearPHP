@@ -1,7 +1,7 @@
 <!-- Good Practices -->
-# Always Use Semicolon
+# Всегда используйте точку с запятой
 
-PHP uses semicolon `;` to make distinction between two sequential instructions. 
+PHP использует точку с запятой `;` для разделения двух инструкций.
 
 ```php
 <?php
@@ -12,28 +12,28 @@ echo $a;
 ?>
 ```
 
-There are a few situations where semicolon are not required, as another token will be used as instruction ending. For example : 
+Иногда, точка с запятой не обязательна в конце инструкции. например:
 
 ```php
 <?php
 	echo 'a' 
 ?>
 ```
-Here, the `echo 'a'` instruction will be closed automatically by the `?>` PHP closing tag. 
+Здесь инструкция `echo 'a'` будет автоматически закрыта закрывающими символами PHP `?>` 
 
 In some situations, the missing `;` will make PHP starts the instruction on one line and finish on the next. 
-
+Иногда, если `;` пропущена, PHP запускает инструкцию на одной линии и заканчивает на следующей.
 
 ```php
 <?php
 
 $a = f() or 
-	// $a = b()      // This line was simply commented out
-if ($condition) {}	// now the 'if' is depend on the f() call
+	// $a = b()      // Просто комментарий
+if ($condition) {}	// Здесь 'if' зависит от результата вызова функции f()
 	
 echo 
 print 'b';
-// This will display b1
+// Будет выведено b
 
 ?>
 ```
