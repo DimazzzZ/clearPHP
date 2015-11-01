@@ -21,7 +21,6 @@ echo $a;
 ```
 Здесь инструкция `echo 'a'` будет автоматически закрыта закрывающими символами PHP `?>` 
 
-In some situations, the missing `;` will make PHP starts the instruction on one line and finish on the next. 
 Иногда, если `;` пропущена, PHP запускает инструкцию на одной линии и заканчивает на следующей.
 
 ```php
@@ -37,7 +36,7 @@ print 'b';
 
 ?>
 ```
-`continue` and `break` used to accept no value (that will default to 1) or the result of the next expression (up to PHP 5.4) : 
+`continue` и `break` не принимает значений (по умолчанию 1) или результат следующего выражения (от PHP 5.4) : 
 
 ```php
 <?php
@@ -47,7 +46,7 @@ for ( $i = 0; $i < 5; ++$i )
     if ( $i == 2 )
         continue
     print "$i\n";
-    // surprising result
+    // Неожиданный результат
 }
 
 ?>
