@@ -12,7 +12,7 @@ echo $a;
 ?>
 ```
 
-Иногда, точка с запятой не обязательна в конце инструкции. например:
+Иногда, точка с запятой не обязательна в конце инструкций. Например:
 
 ```php
 <?php
@@ -51,7 +51,6 @@ for ( $i = 0; $i < 5; ++$i )
 
 ?>
 ```
-There are quite some instructions that may overflow to the next line, like all operators, and : 
 Некоторые инструкции могут переполнить следующюю строку:
 * Все операторы (математические, сравнение, логические)
 * echo
@@ -72,9 +71,9 @@ class x { }; // точка с запятой не нужна
 ?>
 ```
 
-It is recommended to make sure that all required semicolon are always set, even if they are not compulsory.
+Рекомендуется убедиться, что все точки с запятой всегда уставновлены, даже если они не обязательны.
 
-## Rule Details
+## Подробнее о правиле
 
 The following patterns are considered warnings:
 
@@ -100,6 +99,6 @@ include
 ## When Not To Use It
 -->
 
-## Further Readings
-* [Instruction separation](language.basic-syntax.instruction-separation)
+## Дополнительная литература
+* [Инструкции разделения](language.basic-syntax.instruction-separation)
 
