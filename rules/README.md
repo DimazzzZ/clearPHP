@@ -19,7 +19,7 @@ The following rules are common sense practices that help avoid bugs or conflicts
  * [Всегда используйте точку с запятой] (always-use-semicolon.md) - 
  * [avoid-magic-number] (avoid-magic-number.md) - 
  * [avoid-redefining-properties] (avoid-redefining-properties.md) - 
- * [avoid-those-functions] (avoid-those-functions.md) - 
+ * [Избегайте этих функций] (avoid-those-functions.md) - 
  * [commented-fallthrough] (commented-fallthrough.md) - 
  * [compatible-typehint] (compatible-typehint.md) - 
  * [constant-condition] (constant-condition.md) - 
