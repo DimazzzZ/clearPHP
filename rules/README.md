@@ -1,11 +1,12 @@
 <!-- generated on 26-01-2015 10:0:37-->
-# Rules
+# Правила
 
-This list contains ninety four rules, in six categories.
+Этот список содержит * правил в * категориях
 
-## Potential Errors
+## Потенциальные ошибки
 
 The following rules signal possible mistakes in the code.
+Следование этим правилам, возможно говорит об ошибках в коде
 
  * [no-dangling-reference] (no-dangling-reference.md) - 
 
@@ -15,6 +16,8 @@ The following rules are common sense practices that help avoid bugs or conflicts
 
  * [always-have-visibility] (always-have-visibility.md) - 
  * [always-typehint] (always-typehint.md) - 
+ * [always-typehint] (always-typehint.md) - 
+ * [avoid-magic-number] (avoid-magic-number.md) - 
  * [avoid-redefining-properties] (avoid-redefining-properties.md) - 
  * [avoid-those-functions] (avoid-those-functions.md) - 
  * [commented-fallthrough] (commented-fallthrough.md) - 
