@@ -16,7 +16,7 @@ The following rules are common sense practices that help avoid bugs or conflicts
 
  * [always-have-visibility] (always-have-visibility.md) - 
  * [always-typehint] (always-typehint.md) - 
- * [always-use-semicolon] (always-use-semicolon.md) - 
+ * [Всегда используйте точку с запятой] (always-use-semicolon.md) - 
  * [avoid-magic-number] (avoid-magic-number.md) - 
  * [avoid-redefining-properties] (avoid-redefining-properties.md) - 
  * [avoid-those-functions] (avoid-those-functions.md) - 
