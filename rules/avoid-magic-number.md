@@ -1,16 +1,16 @@
 <!-- Good Practices -->
-# No Magic Number
+# Избегайте магических чисел
 
-Magic Number is a number that is written as a literal in the code, while it may have a special or related meaning that is not obvious to understand. 
+Магическое число - это число, которое жестко прописано в коде, тогда как он может иметь особое или связанный значение, которое понять сразу нельзя.
 
-At a later stage of the evolution, such magic number may need to be updated and a blind search/replace will not be possible as such literal may be used in other context.
+В дальнейшем, например, магическое число нужно будет найти и изменить.
 
 ```php
 <?php
 
-if (strlen($password) < 10) { // 10 is a magic number, that may change at any time. 
-	$password['status'] = 33; // that is an error number, another magic number
-	$password['checked'] += 1; // that is not a magic number : it only counts password's checks
+if (strlen($password) < 10) { // 10 это магическое число, которое может изменится в любое время. 
+	$password['status'] = 33; // это номер ошибки, другое магическое число
+	$password['checked'] += 1; // это не магическое число: он содержит только количество проверок пароля
 }
 
 ?>
