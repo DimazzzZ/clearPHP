@@ -18,7 +18,7 @@ The following rules are common sense practices that help avoid bugs or conflicts
  * [Всегда контролируйте тип] (always-typehint.md) 
  * [Всегда используйте точку с запятой] (always-use-semicolon.md) 
  * [Избегайте магических чисел] (avoid-magic-number.md) 
- * [avoid-those-functions] (avoid-those-functions.md) 
+ * [Избегайте этих функций] (avoid-those-functions.md) 
  * [commented-fallthrough] (commented-fallthrough.md) 
  * [compatible-typehint] (compatible-typehint.md) 
  * [constant-condition] (constant-condition.md) 
