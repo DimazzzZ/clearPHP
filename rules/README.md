@@ -20,7 +20,7 @@ The following rules are common sense practices that help avoid bugs or conflicts
  * [Избегайте магических чисел] (avoid-magic-number.md) 
  * [Избегайте этих функций] (avoid-those-functions.md) 
  * [commented-fallthrough] (commented-fallthrough.md) 
- * [compatible-typehint] (compatible-typehint.md) 
+ * [Контроль типов] (compatible-typehint.md) 
  * [constant-condition] (constant-condition.md) 
  * [declares-or-executes] (declares-or-executes.md) 
  * [definitions-only] (definitions-only.md) 
