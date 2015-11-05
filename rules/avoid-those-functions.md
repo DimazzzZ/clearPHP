@@ -1,20 +1,21 @@
 <!-- Good Practices -->
-# Avoid Those Functions
+# Избегайте этих функций
 
-There are a few PHP native functions that should be avoided, because they represent old solutions to modern problems, or they were replaced by better solutions or functions. 
+Несколько PHP функций, которых следует избегать, потому что они представляют устаревшие решения современных проблем, или они были заменены на более лучшие решения или функции.
 
-Their usage should be investigated. 
 
-| function | Reason  |  Alternative |
+Их использование должно быть исследовано. 
+
+| Функция | Причина  |  Альтернатива |
 |---|---|---|
-| mysql\_escape\_string  | Not an effective way to secure values in a SQL query  |  Use prepared statements |
-| mysql\_real\_escape\_string  |  Not much better than the previous function  | Use prepared statements |
-| mysqli\_real\_escape\_string  |  Old style data protection  | Use prepared statements |
-| addslashes  | Ineffective protection in SQL query  | Use prepared statements |
-| addCslashes  | Ineffective protection in SQL query  | Use prepared statements |
-| SQLite3::escapeString | Not effective protection in SQL query for all characters  | Use prepared statements |
-| eval | This function has a rule for itself  | Use reflexion, closures. |
-| set\_include\_path | May interfere with other inclusions | Configure include_path in php.ini and don't mess with it again |
+| mysql\_escape\_string  | Неэффективный способ защиты значений в SQL запросе  |  Используйте подготовленные выражения |
+| mysql\_real\_escape\_string  |  Не лучше чем предыдущая функция  | Используйте подготовленные выражения |
+| mysqli\_real\_escape\_string  |  Старый способ защиты данных  | Используйте подготовленные выражения |
+| addslashes  | Неэффективная защита в SQL запросе  | Используйте подготовленные выражения |
+| addCslashes  | Неэффективная защита в SQL запросе  | Используйте подготовленные выражения |
+| SQLite3::escapeString | Неэффективная защита в SQL запросе для всех символов  | Используйте подготовленные выражения |
+| eval | Эта функция имеет правило на самого себя | Используйте reflexion, замыкания. |
+| set\_include\_path | Может помешать другим файлам для подключения | Установите include_path в php.ini и больше не возитесь с ним |
 
 
 <!--
@@ -22,9 +23,9 @@ Their usage should be investigated.
 -->
 
 
-## Rule Details
+## Подробнее о правиле
 
-Using any of the functions mentioned above will trigger a warning. 
+При использовании любых этих функций, будет вызвыно предупреждение.
 
 <!--
 ### Options

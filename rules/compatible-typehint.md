@@ -1,14 +1,15 @@
 <!-- Good Practices -->
-# Compatible Typehint
-In PHP's functions and methods, arguments may have `typehint`, that forces arguments to be objects, compatible with a class or interface, array or callable. When classes and interfaces are used, objects of the same class or implementing the interface, or any of their child may be accepted. 
+# Контроль типов 
 
-When such criteria is not met, the code will emit a catchable error. 
+В функция и методах есть возможность указывать `тип передаваемых параметров`, можно указать что параметром могут быть объекты, 
+соответсвующих классов или интерфейсов, массив или анонимная функция. Если объект, реализует укказанный интерфейс или наследует указанный класс, он будет допущен. 
+Если параметр не соответствует указанной критерии, будет вызвана ошибка.
 
-This validation will be done at execution time. This rules aims at avoiding any situation where a method is called with the wrong type of arguments, as much as it may be identified at compile time.
+Эта проверка будет сделана во время выполнения. Эти правила направлены на устранение любой ситуации, где метод вызывается с неправильным типом параметров, так же, как это может быть идентифицировано во время компиляции.
 
-## Rule Details
+## Подробнее о правиле
 
-The following are considered a warning : 
+Следующий код содержит ошибку: 
 
 ```php
 <?php
@@ -20,7 +21,7 @@ x(new b());
 ?>
 ```
 
-The following are OK : 
+Следующий код правильный: 
 
 ```php
 <?php
